@@ -1,1 +1,47 @@
+@import 'materialize-css/dist/css/materialize.min.css';
+
+
+html, body {
+  font-family: "Raleway", sans-serif; 
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color:#F9C80E ;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-footer {
+  margin-top: 300px;
+}
+
+/*Navigation bar*/
+
+.nav {
+  background: #662E9B;
+}
+
+
+
+/*home page*/
+
+.title {
+  font-size: 100px;
+  font-weight: 600;
+  color: #662E9B;
+}
+
+.shop-btn {
+  background-color:#F86624;
+  color: white;
+  font-size: 40px;
+  border-radius: 30px;
+  padding:10px;
+}
+
 

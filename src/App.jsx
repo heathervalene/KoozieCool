@@ -6,10 +6,15 @@ import ProductDetail from './components/ProductDetail'
 import About from './components/About'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import productsArray from '../data/products'
+import { useState } from 'react'
 
 
 
 const App = () => {
+
+  const [products, setProducts] = useState(productsArray)
+
   return (
     <div>
       <header>
@@ -18,8 +23,8 @@ const App = () => {
       <main>
         <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/products" element={<Productlist />} />
-      <Route path="/productdetails" element={<ProductDetail />} />
+      <Route path="/products" element={<Productlist products={products} />} />
+      <Route path="/productdetails" element={<ProductDetail products={products} />} />
       <Route path="/about" element={<About />}/>
       </Routes>
       </main>
