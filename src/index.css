@@ -16,8 +16,20 @@ html, body {
   flex-direction: column;
 }
 
+/*footer*/
+
+.footer {
+  background-color: #662E9B;
+}
 .page-footer {
   margin-top: 300px;
+ 
+
+}
+
+.social-link {
+  color: #43BCCD;
+  font-size: 20px;
 }
 
 /*Navigation bar*/
