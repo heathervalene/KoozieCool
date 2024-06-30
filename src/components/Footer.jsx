@@ -2,13 +2,15 @@
 
 const Footer = () => {
     return (
-        <div className="page-footer footer">
+        <div className="page-footer">
             <div className="container">
                 <div className="row">
                     <div className="col l3 m6 s6">
                     <ul>
-                        <li>About</li>
-                        <li>products</li>
+                        <li>
+                            <a className="footer-link" href="/about">About</a></li>
+                        <li>
+                            <a className="footer-link" href="/products">Products</a></li>
                         </ul>
                         </div>
                         <div className="col l3 m6 s6">

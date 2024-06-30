@@ -18,13 +18,16 @@ html, body {
 
 /*footer*/
 
-.footer {
-  background-color: #662E9B;
-}
+
 .page-footer {
   margin-top: 300px;
+  background-color: #662E9B!important;
  
+}
 
+.footer-link {
+  color: #43BCCD;
+  font-size: 20px;
 }
 
 .social-link {
