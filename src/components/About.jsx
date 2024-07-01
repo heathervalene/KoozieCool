@@ -9,7 +9,7 @@ const About = () => {
             <h2>Customer Support</h2>
             <p>contact information</p>
             <h2>Company History</h2>
-            <div>Social Media links</div>
+          
             
         </div>
     )
