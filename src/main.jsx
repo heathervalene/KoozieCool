@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import 'materialize-css/dist/css/materialize.min.css'; 
+import 'materialize-css/dist/js/materialize.min.js'
 
 
 const googleFontsLink = document.createElement('link');
