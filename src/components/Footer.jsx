@@ -17,18 +17,18 @@ const Footer = () => {
                     </div>
                     <div className="col l6 m6 s12 social-media-container">
                         <ul className="social-links">
-                            <li>
+                            {/* <li>
                                 <a className="social-link" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-facebook-f"></i>
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
-                                <a className="social-link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a className="social-link" href="https://www.instagram.com/koozie_cool/" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
-                                <a className="social-link" href="https://www.etsy.com/shop/Kooziecool" target="_blank" rel="noopener noreferrer">
+                                <a className="social-link" href="https://www.pinterest.com/kooziecool/" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-pinterest"></i>
                                 </a>
                             </li>
