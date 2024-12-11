@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <div>
             <nav className="nav">
-               <a href="/"> <img className="logo" src="/koozielogo.png" alt="Logo" /></a>
+               <a href="/"> <img className="logo" src="/KC_logo_new.png" alt="Logo" /></a>
                 <ul className="left-nav">
                     <li>
                         <NavLink to="/">Home</NavLink>
